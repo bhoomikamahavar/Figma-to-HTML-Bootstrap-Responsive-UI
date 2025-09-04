@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- bootstrap icons css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand fw-bold">
+                <h1>JustHome</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Listing
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Members
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center gap-2">
+                    <span class="contact-text small px-3 py-2">
+                        <i class="bi bi-telephone me-1"></i>+66 815 88866
+                    </span>
+                    <i class="bi bi-person-circle"></i>
+                    <a href="#" class="btn border rounded-pill">Add property</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero -->
+    <header class="hero">
+        <div class="container text-center">
+            <span class="tag">LET US GUIDE YOUR HOME</span>
+            <h1>Believe in finding it</h1>
+            <p class="lead">Search properties for sale and to rent in the UK</p>
+
+            <!-- search -->
+            <form class="search-wrap">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Enter Name" aria-label="Search" />
+                    <button class="btn btn-search" type="submit"><i class="bi bi-search"></i></button>
+                </div>
+            </form>
+
+            <!-- chips -->
+            <div class="d-flex justify-content-center flex-wrap mt-3 chips">
+                <span class="chip"><i class="bi bi-house-door"></i> Modern Villa</span>
+                <span class="chip"><i class="bi bi-building"></i> Apartment</span>
+                <span class="chip"><i class="bi bi-houses"></i> Town House</span>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- second part -->
+    <section class="container py-5">
+        <div class="text-center mb-5">
+            <h3 class="fw-bold">Why You Should Work With Us</h3>
+            <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, id.</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <i class="bi bi-journal-text"></i>
+                    <h5>Wide Range of Properties</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit Laborum..</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <i class="bi bi-house"></i>
+                    <h5>Buy or Rent Homes</h5>
+                    <p>Soluta molestias quibusdam magni, quo eligendi quod consectetur adipisicing.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <i class="bi bi-shield-check"></i>
+                    <h5>Trusted by Thousands</h5>
+                    <p>Quibusdam esse libero quam consequatur repellendus molestias quibusdam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- feature part -->
+    <div class="container my-5">
+        <div class="text-center mb-5">
+            <h3>Featured Properties</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, officiis!</p>
+            <div class="btn-group" style="gap: 10px;">
+                <button class="btn btn-outline-dark active rounded-pill">All Properties</button>
+                <button class="btn btn-outline-dark rounded-pill">For Sale</button>
+                <button class="btn btn-outline-dark rounded-pill">For Rent</button>
+            </div>
+        </div>
+        <!-- grid -->
+        <div class="row g-4">
+            <!-- card 1 -->
+            <div class="col-md-4">
+                <div class="card property-card">
+                    <div class="property-badge">
+                        <span class="badge bg-success">FOR SALE</span>
+                        <span class="badge bg-warning text-dark">Featured</span>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9tZSUyMGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fHww"
+                        alt="home design" class="card-img-top" style="height: 350px; object-fit: cover;" />
+                    <div class="property-info">
+                        <h6 class="fw-bold">Luxury Family Home</h6>
+                        <p class="text-muted mb-1"><i class="bi bi-geo-alt"></i> 1800-1818 79th St</p>
+                        <div class="d-flex justify-content-between text-muted">
+                            <h6 class="text-danger">$395,000</h6>
+                            <span><i class="bi bi-house-door"></i>4</span>
+                            <span><i class="bi bi-badge-wc"></i> 1</span>
+                            <span><i class="bi bi-file-earmark"></i> 400</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="col-md-4">
+                <div class="card property-card">
+                    <div class="property-badge">
+                        <span class="badge bg-success">FOR SALE</span>
+                        <span class="badge bg-warning text-dark">Featured</span>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1616046619793-7e4badf3fe1f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG9tZSUyMGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fHww"
+                        alt="home design" class="card-img-top" style="height: 350px; object-fit: cover;" />
+                    <div class="property-info">
+                        <h6 class="fw-bold">Luxury Family Home</h6>
+                        <p class="text-muted mb-1"><i class="bi bi-geo-alt"></i> 1800-1818 79th St</p>
+                        <div class="d-flex justify-content-between text-muted">
+                            <h6 class="text-danger">$395,000</h6>
+                            <span><i class="bi bi-house-door"></i>4</span>
+                            <span><i class="bi bi-badge-wc"></i> 1</span>
+                            <span><i class="bi bi-file-earmark"></i> 400</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="col-md-4">
+                <div class="card property-card">
+                    <div class="property-badge">
+                        <span class="badge bg-success">FOR SALE</span>
+                        <span class="badge bg-warning text-dark">Featured</span>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWUlMjBpbnRlcmlvciUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D"
+                        alt="home design" class="card-img-top" style="height: 350px; object-fit: cover;" />
+                    <div class="property-info">
+                        <h6 class="fw-bold">Luxury Family Home</h6>
+                        <p class="text-muted mb-1"><i class="bi bi-geo-alt"></i> 1800-1818 79th St</p>
+                        <div class="d-flex justify-content-between text-muted">
+                            <h6 class="text-danger">$395,000</h6>
+                            <span><i class="bi bi-house-door"></i>4</span>
+                            <span><i class="bi bi-badge-wc"></i> 1</span>
+                            <span><i class="bi bi-file-earmark"></i> 400</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 4 -->
+            <div class="col-md-4">
+                <div class="card property-card">
+                    <div class="property-badge">
+                        <span class="badge bg-success">FOR SALE</span>
+                        <span class="badge bg-warning text-dark">Featured</span>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1652700296231-c4dec1c681a3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvbWUlMjBpbnRlcmlvciUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D"
+                        alt="home design" class="card-img-top" style="height: 350px; object-fit: cover;" />
+                    <div class="property-info">
+                        <h6 class="fw-bold">Luxury Family Home</h6>
+                        <p class="text-muted mb-1"><i class="bi bi-geo-alt"></i> 1800-1818 79th St</p>
+                        <div class="d-flex justify-content-between text-muted">
+                            <h6 class="text-danger">$395,000</h6>
+                            <span><i class="bi bi-house-door"></i>4</span>
+                            <span><i class="bi bi-badge-wc"></i> 1</span>
+                            <span><i class="bi bi-file-earmark"></i> 400</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 5 -->
+            <div class="col-md-4">
+                <div class="card property-card">
+                    <div class="property-badge">
+                        <span class="badge bg-success">FOR SALE</span>
+                        <span class="badge bg-warning text-dark">Featured</span>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1729811903389-3871aa766a64?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhvbWUlMjBpbnRlcmlvciUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D"
+                        alt="home design" class="card-img-top" style="height: 350px; object-fit: cover;" />
+                    <div class="property-info">
+                        <h6 class="fw-bold">Luxury Family Home</h6>
+                        <p class="text-muted mb-1"><i class="bi bi-geo-alt"></i> 1800-1818 79th St</p>
+                        <div class="d-flex justify-content-between text-muted">
+                            <h6 class="text-danger">$395,000</h6>
+                            <span><i class="bi bi-house-door"></i>4</span>
+                            <span><i class="bi bi-badge-wc"></i> 1</span>
+                            <span><i class="bi bi-file-earmark"></i> 400</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 6 -->
+            <div class="col-md-4">
+                <div class="card property-card">
+                    <div class="property-badge">
+                        <span class="badge bg-success">FOR SALE</span>
+                        <span class="badge bg-warning text-dark">Featured</span>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1687942691222-0876157ac76f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG9tZSUyMGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fHww"
+                        alt="home design" class="card-img-top" style="height: 350px; object-fit: cover;" />
+                    <div class="property-info">
+                        <h6 class="fw-bold">Luxury Family Home</h6>
+                        <p class="text-muted mb-1"><i class="bi bi-geo-alt"></i> 1800-1818 79th St</p>
+                        <div class="d-flex justify-content-between text-muted">
+                            <h6 class="text-danger">$395,000</h6>
+                            <span><i class="bi bi-house-door"></i>4</span>
+                            <span><i class="bi bi-badge-wc"></i> 1</span>
+                            <span><i class="bi bi-file-earmark"></i> 400</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- see all buttton -->
+        <div class="text-center mt-4">
+            <button class="btn" style="background-color: #e7c873; border: 1px solid #ffffff; border-radius: 999px;">See
+                All Listing <i class="bi bi-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <!-- cities part -->
+    <div class="container-fluid py-5 text-center" style="background-color: #f7f7f7;">
+        <h3 class="fw-bold">Find Properties in These Cities</h3>
+        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, quia deserunt
+            reprehenderit inventore fugiat quo.</p>
+        <div class="row g-3 justify-content-center">
+            <div class="col-lg-2 col-md-4 col-10">
+                <div class="city-card">
+                    <img src="https://images.unsplash.com/photo-1549533948-77ab8a0d9878?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNoaWNhZ298ZW58MHx8MHx8fDA%3D"
+                        alt="chicago">
+                    <div class="city-overlay">
+                        <h5>Chicago</h5>
+                        <p>2 Properties</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-10">
+                <div class="city-card">
+                    <img src="https://plus.unsplash.com/premium_photo-1729862338747-812be62ad499?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bGVvJ3MlMjBsb3MlMjBhbmdlbGVzfGVufDB8fDB8fHww"
+                        alt="los angeles">
+                    <div class="city-overlay">
+                        <h5>Chicago</h5>
+                        <p>2 Properties</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-10">
+                <div class="city-card">
+                    <img src="https://images.unsplash.com/photo-1535498730771-e735b998cd64?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="miami">
+                    <div class="city-overlay">
+                        <h5>Chicago</h5>
+                        <p>2 Properties</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-10">
+                <div class="city-card">
+                    <img src="https://images.unsplash.com/photo-1599163174538-8a5ad89299c3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGZsb3JpZGF8ZW58MHx8MHx8fDA%3D"
+                        alt="florida">
+                    <div class="city-overlay">
+                        <h5>Chicago</h5>
+                        <p>2 Properties</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-10">
+                <div class="city-card">
+                    <img src="https://images.unsplash.com/photo-1541336032412-2048a678540d?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="new-york">
+                    <div class="city-overlay">
+                        <h5>Chicago</h5>
+                        <p>2 Properties</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-4">
+            <a href="#" style="cursor: pointer;"><i class="bi bi-record-circle"></i></a>
+            <a href="#" style="cursor: pointer;"><i class="bi bi-dot"></i></a>
+            <a href="#" style="cursor: pointer;"><i class="bi bi-dot"></i></a>
+            <a href="#" style="cursor: pointer;"><i class="bi bi-dot"></i></a>
+        </div>
+    </div>
+
+    <!-- home part -->
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <!-- left -->
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <img src="https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGhvbWUlMjBkZXNpZ258ZW58MHx8MHx8fDA%3D"
+                    alt="home design">
+            </div>
+            <!-- right side -->
+            <div class="col-lg-6">
+                <h3 class="fw-bold">How It works?<br> Find a perfect home</h3>
+                <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia cupiditate
+                    neque et illum. Consequuntur, esse.</p>
+                <div class="feature-item">
+                    <div>
+                        <h6 class="fw-semibold mb-1"><i class="bi bi-house-door-bill"></i> Find Real Estate</h6>
+                        <p class="text-muted small mb-0">Lorem ipsum dolor sit amet consectetur adipisicing<br /> elit.
+                            Deserunt repellendus tempore ex.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div>
+                        <h6 class="fw-semibold mb-1"><i class="bi bi-people-fill"></i> Meet Realtor</h6>
+                        <p class="text-muted small mb-0">Lorem ipsum dolor sit amet consectetur adipisicing<br /> elit.
+                            Deserunt repellendus tempore ex.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div>
+                        <h6 class="fw-semibold mb-1"><i class="bi bi-key-fill"></i> Take The Keys</h6>
+                        <p class="text-muted small mb-0">Lorem ipsum dolor sit amet consectetur adipisicing<br /> elit.
+                            Deserunt repellendus tempore ex.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- customer part -->
+    <div class="container-fluid testimonial" style="background-color: #fff8f6;">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <!-- left side -->
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="fw-bold mb-3">What our customers are saying us?</h2>
+                    <p class="text-muted mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error corporis
+                        aspernatur voluptates, repudiandae earum eius eaque aperiam reiciendis. Alias, eveniet.</p>
+                    <div class="d-flex mb-3">
+                        <div class="me-5">
+                            <h4 class="fw-bold">10m+</h4>
+                            <small class="text-muted">Happy People</small>
+                        </div>
+                        <div>
+                            <h4 class="fw-bold">4.88</h4>
+                            <small class="text-muted">Overall rating</small>
+                            <div class="rating mb-1">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- right side -->
+                <div class="col-lg-6 testimonial-card">
+                    <!-- icone -->
+                    <span class="quote-icone"><i class="bi bi-quote"></i></span>
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="./img/user/user-1.png" height="60" width="60" style="border-radius: 50%;"
+                            alt="user" />
+                        <div>
+                            <h6 class="fw-semibold mb-0" style="margin-left: 10px;">Cameron Williamson</h6>
+                            <small class="text-muted" style="margin-left: 10px;">Designer</small>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis corrupti similique odio. Illum
+                        quam, sapiente saepe dolore, ducimus nihil mollitia at impedit iure distinctio eveniet.</p>
+                    <div class="d-flex mt-4">
+                        <button class="nav-btn"><i class="bi bi-chevron-left"></i></button>
+                        <button class="nav-btn"><i class="bi bi-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- logo -->
+    <section class="company-section" style="background-color: #fff8f6;">
+        <div class="container">
+            <p class="mb-0 fs-5">Thousands of world's leading companies trust Space</p>
+            <div class="company-logos mt-3">
+                <div class="company-logo">
+                    <svg width="46" height="40" viewBox="0 0 46 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M0 33L4.60606 25H12.2448C17.2569 25 21.4947 28.7103 22.1571 33.6784L23 40H13L11.5585 36.6365C10.613 34.4304 8.44379 33 6.04362 33H0Z"
+                            fill="#0047C1"></path>
+                        <path
+                            d="M46 33L41.3939 25H33.7552C28.7431 25 24.5053 28.7103 23.8429 33.6784L23 40H33L34.4415 36.6365C35.387 34.4304 37.5562 33 39.9564 33H46Z"
+                            fill="#0047C1"></path>
+                        <path
+                            d="M4.60606 25L18.9999 0H23L22.6032 9.52405C22.2608 17.7406 15.7455 24.3596 7.53537 24.8316L4.60606 25Z"
+                            fill="#0047C1"></path>
+                        <path
+                            d="M41.3939 25L27.0001 0H23L23.3968 9.52405C23.7392 17.7406 30.2545 24.3596 38.4646 24.8316L41.3939 25Z"
+                            fill="#0047C1"></path>
+                    </svg>
+                </div><!-- logo 1 -->
+                <div class="company-logo">
+                    <svg width="55" height="41" viewBox="0 0 55 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M35.5 0.5C45.9934 0.5 54.5 9.00659 54.5 19.5V40.5C50.0817 40.5 46.5 36.9183 46.5 32.5V19.5C46.5 13.4249 41.5751 8.5 35.5 8.5H30.2988C27.6467 8.50004 25.1029 9.55339 23.2275 11.4287L9.67188 24.9854C8.92179 25.7354 8.50006 26.7527 8.5 27.8135V28.5C8.5 30.7091 10.2909 32.5 12.5 32.5H30.5C30.5 36.7801 27.1389 40.2748 22.9121 40.4893L22.5 40.5H12.5C5.87259 40.5 0.5 35.1274 0.5 28.5V27.8135C0.500062 24.631 1.76427 21.5785 4.01465 19.3281L17.5713 5.77246C20.9469 2.39685 25.525 0.500044 30.2988 0.5H35.5Z"
+                            fill="#FF500B"></path>
+                        <path
+                            d="M37.5 12.5C40.2614 12.5 42.5 14.7386 42.5 17.5V40.5C38.0817 40.5 34.5 36.9183 34.5 32.5V20.5H31.1562L24.6207 27.0355C23.683 27.9732 22.4113 28.5 21.0852 28.5H12.9775C12.5588 28.5 12.3491 27.9937 12.6452 27.6976L26.3789 13.9648C27.3165 13.0272 28.588 12.5 29.9141 12.5H37.5Z"
+                            fill="#FF500B"></path>
+                    </svg>
+                </div><!-- logo 2 -->
+                <div class="company-logo">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M30 28V12C30 10.8954 29.1046 10 28 10H27.8994C27.369 10 26.8604 10.2109 26.4854 10.5859L10.5859 26.4854C10.2109 26.8604 10 27.369 10 27.8994V40H0V27.8994C2.15312e-05 24.7168 1.26423 21.6645 3.51465 19.4141L19.4141 3.51465C21.6645 1.26423 24.7168 2.1373e-05 27.8994 0H28C34.6274 0 40 5.37258 40 12V28C40 34.6274 34.6274 40 28 40H14V30H28C29.1046 30 30 29.1046 30 28Z M0 0H17L7 10H0V0Z"
+                            fill="#FF4D00"></path>
+                    </svg>
+                </div><!-- logo 3 -->
+                <div class="company-logo">
+                    <svg width="56" height="40" viewBox="0 0 56 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M23.3333 0C23.7194 0 24.1033 0.00932962 24.4847 0.0280265C24.4924 0.0284028 24.4989 0.0222809 24.4989 0.0145938V0.0145938C24.4989 0.00716838 24.5049 0.0011489 24.5123 0.0011489H45.8418C46.2974 0.00137965 46.6667 0.373466 46.6667 0.83295C46.6666 1.05356 46.5798 1.26515 46.4251 1.42119L40.8322 7.05882H52.7444C53.5415 7.05882 54.27 7.52957 54.5456 8.27757C55.4857 10.829 56 13.5892 56 16.4706C56 29.4655 45.5533 40 32.6667 40C32.2808 40 31.8971 39.9896 31.5158 39.9709C31.5078 39.9705 31.5011 39.9768 31.5011 39.9848V39.9848C31.5011 39.9926 31.4949 39.9989 31.4871 39.9989H10.1582C9.7026 39.9986 9.33333 39.6265 9.33333 39.1671C9.33336 38.9464 9.42022 38.7348 9.57487 38.5788L15.1655 32.9412H3.25562C2.45846 32.9412 1.73002 32.4704 1.4544 31.7224C0.514256 29.171 0 26.4109 0 23.5294C0 10.5345 10.4467 0 23.3333 0ZM31.3177 16.6556C29.3919 14.383 26.5301 12.9412 23.3333 12.9412C17.5343 12.9412 12.8333 17.6817 12.8333 23.5294C12.8333 24.7672 13.0456 25.9547 13.4326 27.0588H20.9989L24.6823 23.3444C26.6081 25.617 29.4699 27.0588 32.6667 27.0588C38.4657 27.0588 43.1667 22.3183 43.1667 16.4706C43.1667 15.2328 42.9544 14.0453 42.5674 12.9412H35.0011L31.3177 16.6556Z"
+                            fill="#3754FA"></path>
+                    </svg>
+                </div><!-- logo 4 -->
+                <div class="company-logo">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M0 20C0 12.5231 0 8.78461 1.60769 6C2.66091 4.17577 4.17577 2.66091 6 1.60769C8.78461 0 12.5231 0 20 0C27.4769 0 31.2154 0 34 1.60769C35.8242 2.66091 37.3391 4.17577 38.3923 6C40 8.78461 40 12.5231 40 20C40 27.4769 40 31.2154 38.3923 34C37.3391 35.8242 35.8242 37.3391 34 38.3923C31.2154 40 27.4769 40 20 40C12.5231 40 8.78461 40 6 38.3923C4.17577 37.3391 2.66091 35.8242 1.60769 34C0 31.2154 0 27.4769 0 20Z"
+                            fill="#00DC33"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M28.0441 7.60927C28.8868 6.80331 30.2152 6.79965 31.0622 7.58229L31.1425 7.66005L31.4164 7.94729C34.1911 10.9318 35.2251 14.4098 34.9599 17.8065C34.6908 21.2511 33.1012 24.4994 30.8836 27.0664C28.6673 29.6316 25.7084 31.6519 22.51 32.5287C19.2714 33.4164 15.7294 33.1334 12.6547 30.9629C10.0469 29.1218 9.05406 26.1465 8.98661 23.2561C7.52323 22.5384 5.98346 21.6463 4.36789 20.5615L3.941 20.2716L3.85006 20.206C2.93285 19.5053 2.72313 18.2084 3.39161 17.2564C4.06029 16.3043 5.36233 16.046 6.34665 16.6512L6.44134 16.7126L6.83024 16.9771C7.79805 17.6269 8.72153 18.1903 9.59966 18.6767C10.1661 16.6889 11.1047 14.7802 12.3413 13.207C14.1938 10.8501 16.9713 8.96525 20.374 9.24647C23.439 9.49995 25.7036 11.081 26.8725 13.3122C28.0044 15.4728 28.0211 18.0719 27.0319 20.307C26.0234 22.5857 23.976 24.484 21.0309 25.2662C18.9114 25.8291 16.4284 25.7905 13.6267 25.0367V25.0377C12.5115 24.7375 11.3427 24.323 10.1212 23.7846C9.8472 23.6638 9.60873 23.8483 10.1212 24.1686C11.5636 25.1924 13.5956 26.0505 14.1836 26.3385C14.4615 26.788 14.8061 27.1568 15.2011 27.4356C17.0188 28.7188 19.1451 28.9539 21.3396 28.3523C23.5743 27.7397 25.8141 26.2625 27.5514 24.2516C29.2873 22.2423 30.4065 19.8348 30.5909 17.4727C30.765 15.2439 30.1218 12.9543 28.1842 10.8736L27.9927 10.6731L27.9162 10.5906C27.1538 9.72748 27.2018 8.41516 28.0441 7.60927ZM20.0092 13.5651C18.6033 13.4489 17.1196 14.189 15.8013 15.8662C14.7973 17.1436 14.0376 18.8033 13.6503 20.5112C16.4093 21.4544 18.4655 21.4608 19.8942 21.0814C21.5481 20.6422 22.5399 19.6477 23.0172 18.5693C23.5137 17.4472 23.4628 16.2245 22.9813 15.3055C22.5369 14.4571 21.6422 13.7002 20.0092 13.5651Z"
+                            fill="#ffffff"></path>
+                    </svg>
+                </div><!-- logo 5 -->
+                <div class="company-logo">
+                    <svg width="63" height="40" viewBox="0 0 63 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M63 29.3506L38.117 5.08907C37.4008 4.39081 36.4402 4 35.44 4C31.9983 4 30.2991 8.18294 32.7659 10.583L59.4712 36.5666C60.7577 37.8183 59.8715 40 58.0765 40H9.65685C8.59599 40 7.57857 39.5786 6.82843 38.8284L1.17157 33.1716C0.421426 32.4214 0 31.404 0 30.3431V10.6484L24.883 34.9109C25.5992 35.6092 26.5598 36 27.5601 36C31.0017 36 32.7009 31.8171 30.2342 29.417L3.52882 3.43345C2.24227 2.18166 3.12849 0 4.92354 0L53.3431 0C54.404 0 55.4214 0.421427 56.1716 1.17157L61.8284 6.82843C62.5786 7.57857 63 8.59599 63 9.65685V29.3506Z"
+                            fill="#007BFF"></path>
+                    </svg>
+                </div><!-- logo 6 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- black section -->
+    <div class="properties-section mt-5">
+        <div class="section-title">
+            <h2>Best Properties</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="container mb-5">
+            <div class="row g-4">
+                <!-- left side -->
+                <div class="col-lg-6">
+                    <div class="property-card" style="height: 100%; max-width: 700px;">
+                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=875&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="house" />
+                        <div class="badges">
+                            <span class="badge-custom">For Sale</span>
+                            <span class="badge-custom badge-featured">FEATURED</span>
+                        </div>
+                        <div class="info-box">
+                            <h5>Villa one Hyde Park</h5>
+                            <div class="location">2030 Bloomindgdale Ave</div>
+                            <div class="details">
+                                <div class="price">$120,000</div>
+                                <span>4</span>
+                                <span>2 <i class="bi bi-cup-fill"></i></span>
+                                <span>350 <i class="bi bi-file-earmark-fill"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- right side -->
+                <div class="col-lg-6 d-flex flex-column gap-4">
+                    <!-- top img -->
+                    <div class="property-img-card">
+                        <img src="https://plus.unsplash.com/premium_photo-1661883964999-c1bcb57a7357?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhvdXNlfGVufDB8fDB8fHww"
+                            alt="house">
+                    </div>
+                    <div class="row g-4">
+                        <!-- video -->
+                        <div class="col-md-6">
+                            <div class="property-img-card" style="height: 300px;">
+                                <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdXNlfGVufDB8fDB8fHww"
+                                    alt="house">
+                                <i class="bi bi-play-circle play-btn"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="property-info-card">
+                                <h4>280+ <br />Properties</h4>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <div class="d-flex justify-content-end">
+                                    <i class="bi bi-arrow-right arrow-btn"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- member part -->
+    <div class="container py-5">
+        <div class="text-center mb-4">
+            <h2>Meet Our Team of Experts</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="team-card">
+                    <img src="./img/team/team-1.png" alt="team image" />
+                    <div class="team-name">John Powell</div>
+                    <div class="team-role">Service Support</div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="team-card">
+                    <img src="./img/team/team-2.png" alt="team image" />
+                    <div class="team-name">Thomas Powell</div>
+                    <div class="team-role">Marketing</div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="team-card">
+                    <img src="./img/team/team-3.png" alt="team image" />
+                    <div class="team-name">Tom Wilson</div>
+                    <div class="team-role">Designer</div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="team-card">
+                    <img src="./img/team/team-4.png" alt="team image" />
+                    <div class="team-name">Samuel Palmer</div>
+                    <div class="team-role">Marketing</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- market part -->
+    <div class="container py-5">
+        <div class="text-center mb-4">
+            <h2>Popular Real Estate Markets</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="markets-wrap">
+            <span class="market-pill">The Villages, FL real estate</span>
+            <span class="market-pill">New York, Real estate</span>
+            <span class="market-pill">Madera, CA real estate</span>
+            <span class="market-pill">Fontana, CA real estate</span>
+            <span class="market-pill">Moreno Valley, CA real estate</span>
+            <span class="market-pill">Aurora, IL real estate</span>
+            <span class="market-pill">Perris, CA real estate</span>
+            <span class="market-pill">Minnesota lake, MN real estate</span>
+            <span class="market-pill">Aurora, IL real estate</span>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="text-light pt-5 pb-5" style="background-color: #1e4a43;">
+        <div class="container">
+            <!-- top -->
+            <div class="row align-items-center mb-4">
+                <div class="col-md-6 d-flex align-items-center mb-3 mb-md-0">
+                    <h1 style="color: #ffffff;">JustHome</h1>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <span class="fw-bold me-3">Follow us</span>
+                    <a href="#" class="text-light me-2"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-light me-2"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="text-light me-2"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-light me-2"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+            <hr class="border-light mb-4" />
+            <!-- main footer -->
+            <div class="row text-start">
+                <!-- subsc -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="fw-semibold mb-3">Subscribe</h5>
+                    <form class="d-flex align-items-center mb-2">
+                        <p class="flex-grow-1">Your e-mail</p>
+                        <button class="btn btn-secondary rounded-pill px-4 d-flex align-items-center gap-2"
+                            type="submit">Send</button>
+                    </form>
+                    <hr />
+                    <small>Subscribe to our newsletter to receive our weekly feed.</small>
+                </div>
+                <!-- discover -->
+                <div class="col-md-2 mb-4">
+                    <h5 class="fw-semibold mb-3">Discover</h5>
+                    <ul class="list-unstyled">
+                        <li>Miami</li>
+                        <li>New York</li>
+                        <li>Chicago</li>
+                        <li>Florida</li>
+                        <li>Los Angeles</li>
+                        <li>San Diego</li>
+                    </ul>
+                </div>
+                <!-- quick -->
+                <div class="col-md-2 mb-4">
+                    <h5 class="fw-semibold mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>FAQ's</li>
+                        <li>Blog</li>
+                        <li>Pricing Plans</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+                <!-- contact -->
+                <div class="col-md-2 mb-4">
+                    <h5 class="fw-semibold mb-3">Contact us</h5>
+                    <div>hi@google.com</div>
+                    <div>(123) 456-7890</div>
+                </div>
+                <!-- address -->
+                <div class="col-md-1 mb-4">
+                    <h5 class="fw-semibold mb-3">Our Address</h5>
+                    <div>99 Fifth Avenue, 3rd floor</div>
+                    <div>San Francisco, CA 1980</div>
+                </div>
+                <!-- get app -->
+                <div class="col-md-2 mb-4">
+                    <h5 class="fw-semibold mb-3">Get the app</h5>
+                    <a href="#" class="btn btn-secondary w-100 mb-2 d-flex align-items-center rounded-3">
+                        <i class="bi bi-apple"></i>
+                        <span>
+                            <small>Download on the</small><br />
+                            <strong>App Store</strong>
+                        </span>
+                    </a>
+                    <a href="#" class="btn btn-secondary w-100 mb-2 d-flex align-items-center rounded-3">
+                        <i class="bi bi-google-play"></i>
+                        <span>
+                            <small>Get it on</small><br />
+                            <strong>Google play</strong>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <hr class="border-light mb-4" />
+            <div class="text-center">Copyright &copy; 2025. JustHome</div>
+        </div>
+    </footer>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
